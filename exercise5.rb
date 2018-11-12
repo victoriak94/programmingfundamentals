@@ -1,14 +1,14 @@
 distance = 0
 
-while
+while true
 puts "Do you want to walk or run?"
-
 travel_method = gets.chomp
 
-  if travel_method = "walk"
+  if travel_method == "walk"
     distance += 1
     puts "Distance from home is #{distance}km."
-  elsif travel_method = "run"
+  elsif travel_method == "run"
     distance += 5
     puts "Distance from home is #{distance}km."
+  end
 end
