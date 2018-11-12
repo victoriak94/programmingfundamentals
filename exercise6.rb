@@ -18,5 +18,3 @@ travel_method = gets.chomp
     puts "Distance from home is #{distance}km."
   end
 end
-
-puts "The exercise is over."
